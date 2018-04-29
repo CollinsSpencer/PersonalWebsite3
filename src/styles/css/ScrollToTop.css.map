@@ -1,0 +1,9 @@
+{
+	"version": 3,
+	"file": "ScrollToTop.css",
+	"sources": [
+		"../scss/ScrollToTop.scss"
+	],
+	"names": [],
+	"mappings": "AAAA,AAAA,YAAY,CAAC;EACT,QAAQ,EAAE,KAAK;EACf,MAAM,EAAE,IAAI;EACZ,KAAK,EAAE,IAAI;EACX,OAAO,EAAE,IAAI;EACb,aAAa,EAAE,GAAG;EAClB,gBAAgB,EAAE,kBAAe;EACjC,KAAK,EAAE,KAAK;EACZ,KAAK,EAAE,IAAI;EACX,MAAM,EAAE,IAAI,GACf"
+}

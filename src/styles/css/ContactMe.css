@@ -1,0 +1,7 @@
+.contact-links {
+  color: #000000de;
+  margin: 5px; }
+
+.contact-links.hover,
+.contact-links:hover {
+  color: #00000080; }

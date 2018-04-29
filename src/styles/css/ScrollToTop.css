@@ -1,0 +1,12 @@
+.ScrollToTop {
+  position: fixed;
+  height: 62px;
+  width: 62px;
+  padding: 1rem;
+  border-radius: 50%;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  right: 50px;
+  bottom: 50px; }
+
+/*# sourceMappingURL=ScrollToTop.css.map */

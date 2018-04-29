@@ -1,0 +1,42 @@
+.card {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-top: 15px;
+  text-align: left; }
+
+.card-image {
+  flex-shrink: 0;
+  min-width: 200px;
+  width: 100%; }
+
+.card-image img {
+  border-radius: 25px;
+  display: block;
+  width: 100%;
+  height: auto; }
+
+.card-text {
+  margin: 15px; }
+
+.card-heading {
+  margin: 0; }
+
+.card-subheading {
+  margin: 0; }
+
+@media (min-width: 576px) {
+  .card {
+    flex-direction: row; }
+  .card-image {
+    width: 240px; } }
+
+@media (min-width: 768px) {
+  .card-image {
+    width: 300px; } }
+
+@media (min-width: 992px) {
+  .card-image {
+    width: 360px; } }
+
+/*# sourceMappingURL=AboutMe.css.map */
