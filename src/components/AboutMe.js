@@ -5,8 +5,9 @@ import AboutMeCard from './AboutMeCard';
 
 import '../styles/css/AboutMe.css';
 
-import kauffman from '../images/kauffman.jpg';
+import bhmi from '../images/bhmi.webp';
 import hayneedle from '../images/hayneedle.jpg';
+import kauffman from '../images/kauffman.jpg';
 
 export default class AboutMe extends Component {
     render() {
@@ -34,20 +35,18 @@ export default class AboutMe extends Component {
                 <h2>at work</h2>
                 <div className='container'>
                     <AboutMeCard image={hayneedle}
-                        heading='Hayneedle Inc.'
+                        heading={<Link to='https://www.hayneedle.com/'>Hayneedle Inc.</Link>}
                         subheading='Summer 2017'
                         body={<p>
-                            Check out my full portfolio here: <br />
-                            <Link className="nav-link" to="/Portfolio">Portfolio</Link>
+                            RIA Developer
                         </p>}>
                     </AboutMeCard>
 
-                    <AboutMeCard image={kauffman}
-                        heading='Jeffrey S. Raikes School of Computer Science and Management'
-                        subheading='Fall 2016 - present'
+                    <AboutMeCard image={bhmi}
+                        heading={<Link to='https://www.bhmi.com/'>Baldwin Hackett & Meeks, Inc.</Link>}
+                        subheading='Summer 2016'
                         body={<p>
-                            Check out my full portfolio here: <br />
-                            <Link className="nav-link" to="https://raikes.unl.edu/">Portfolio</Link>
+                            Software Developer
                         </p>}>
                     </AboutMeCard>
                 </div>
