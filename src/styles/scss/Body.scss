@@ -1,5 +1,25 @@
+@import 'variables';
 body {
-    margin: 0;
-    padding: 0;
     font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    overflow-x: hidden;
+    padding: 0;
+}
+
+a {
+    color: $dark;
+}
+
+a.hover,
+a:hover {
+    color: $dark-hover;
+}
+
+.text-light a {
+    color: $dark;
+}
+
+.text-light a.hover,
+.text-light a:hover {
+    color: $dark-hover;
 }

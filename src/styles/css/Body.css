@@ -1,6 +1,19 @@
 body {
+  font-family: 'Montserrat', sans-serif;
   margin: 0;
-  padding: 0;
-  font-family: 'Montserrat', sans-serif; }
+  overflow-x: hidden;
+  padding: 0; }
 
-/*# sourceMappingURL=Body.css.map */
+a {
+  color: #000000de; }
+
+a.hover,
+a:hover {
+  color: #00000080; }
+
+.text-light a {
+  color: #000000de; }
+
+.text-light a.hover,
+.text-light a:hover {
+  color: #00000080; }

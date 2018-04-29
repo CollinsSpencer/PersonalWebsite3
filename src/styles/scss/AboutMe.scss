@@ -9,15 +9,20 @@
 
 .card-image {
     flex-shrink: 0;
-    min-width: 200px;
+    overflow: hidden;
+    padding-bottom: 100%;
+    position: relative;
     width: 100%;
 }
 
-.card-image img {
+.card-image .image {
+    background-position: 50% 50%;
+    background-size: cover;
     border-radius: 25px;
-    display: block;
-    width: 100%;
-    height: auto;
+    min-width: 100%;
+    min-height: 100%;
+    position: absolute;
+    width: auto;
 }
 
 .card-text {
@@ -37,18 +42,22 @@
         flex-direction: row;
     }
     .card-image {
+        height: 240px;
+        padding-bottom: 0;
         width: 240px;
     }
 }
 
 @media (min-width: $breakpoint-md) {
     .card-image {
+        height: 300px;
         width: 300px;
     }
 }
 
 @media (min-width: $breakpoint-lg) {
     .card-image {
+        height: 360px;
         width: 360px;
     }
 }

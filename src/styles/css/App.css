@@ -35,22 +35,31 @@ button:not(:disabled):not(.disabled) {
   line-height: 1em;
   position: relative; }
 
-.heading-bars:before {
-  right: 100%; }
-
 .heading-bars:after {
-  left: 100%; }
-
-.heading-bars:after,
-.heading-bars:before {
   content: " ";
-  display: inline-block;
+  display: block;
   height: 2px;
-  margin: 0 10px;
-  position: absolute;
-  top: 50%;
-  width: 80px;
-  zoom: 1; }
+  left: 0;
+  margin: 15px auto 5px;
+  position: relative;
+  top: 0;
+  width: 80px; }
+
+@media only screen and (min-width: 768px) {
+  .heading-bars:before {
+    right: 100%; }
+  .heading-bars:after {
+    left: 100%; }
+  .heading-bars:after,
+  .heading-bars:before {
+    content: " ";
+    display: inline-block;
+    height: 2px;
+    margin: 0 10px;
+    position: absolute;
+    top: 50%;
+    width: 80px;
+    zoom: 1; } }
 
 .text-dark .heading-bars:after,
 .text-dark .heading-bars:before {
@@ -61,19 +70,21 @@ button:not(:disabled):not(.disabled) {
   background-color: #ffffffde; }
 
 .container {
-  width: 100%;
+  width: calc(100% - 30px);
   padding-right: 15px;
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto; }
 
 .colored-children > .section {
-  padding: 54px; }
+  padding: 54px 0; }
 
 .colored-children > .section:nth-child(even) {
   background: #eee; }
 
 @media (min-width: 576px) {
+  .colored-children > .section {
+    padding: 54px 54px; }
   .container {
     max-width: 540px; } }
 
@@ -84,5 +95,3 @@ button:not(:disabled):not(.disabled) {
 @media (min-width: 992px) {
   .container {
     max-width: 960px; } }
-
-/*# sourceMappingURL=App.css.map */
