@@ -2,9 +2,8 @@
 	"version": 3,
 	"file": "ContactMe.css",
 	"sources": [
-		"../scss/ContactMe.scss",
-		"../scss/_variables.scss"
+		"../scss/ContactMe.scss"
 	],
 	"names": [],
-	"mappings": "AACA,AAAA,cAAc,CAAC;EACX,KAAK,ECAF,SAAS;EDCZ,MAAM,EAAE,GAAG,GACd;;AAED,AAAA,cAAc,AAAA,MAAM;AACpB,cAAc,AAAA,MAAM,CAAC;EACjB,KAAK,ECLI,SAAS,GDMrB"
+	"mappings": "AAAA,AAAA,cAAc,CAAC;EACX,MAAM,EAAE,GAAG,GACd"
 }

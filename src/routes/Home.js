@@ -6,25 +6,29 @@ import ContactMe from '../components/ContactMe';
 import MySystem from '../components/MySystem';
 import Pictures from '../components/Pictures';
 
-import utahSelfie from '../images/GOPR1407.JPG';
-
-const context = require.context('../images', true, /.jpg$/);
-
-const pictures = [];
-context.keys().forEach((key) => {
-    const countryCode = key.split('./').pop() // remove the first 2 characters
-        .substring(0, key.length - 6); // remove the file extension
-    pictures[countryCode] = context(key);
-});
+import utahSelfie from '../images/utahSelfie.JPG';
+import pictures from '../images/LoadPictures';
 
 export default class Home extends Component {
+    constructor() {
+        super();
+
+        this.state = {
+            images: pictures
+        }
+    }
+    componentDidMount() {
+        this.setState({
+            images: pictures
+        })
+    }
     render() {
         return (
             <div className='colored-children'>
                 <BannerImage image={utahSelfie} pretitle="Hey, I'm" title='Spencer Collins' />
                 <AboutMe></AboutMe>
-                <Pictures pictures={pictures}></Pictures>
-                <MySystem></MySystem>
+                <Pictures images={this.state.images}></Pictures>
+                {/* <MySystem></MySystem> */}
                 <ContactMe></ContactMe>
             </div>
         );

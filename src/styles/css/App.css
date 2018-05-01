@@ -76,14 +76,14 @@ button:not(:disabled):not(.disabled) {
   margin-right: auto;
   margin-left: auto; }
 
-.colored-children > .section {
+.colored-children .section {
   padding: 54px 0; }
 
-.colored-children > .section:nth-child(even) {
+.colored-children .section:nth-child(even) {
   background: #eee; }
 
 @media (min-width: 576px) {
-  .colored-children > .section {
+  .colored-children .section {
     padding: 54px 54px; }
   .container {
     max-width: 540px; } }

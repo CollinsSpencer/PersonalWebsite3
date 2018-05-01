@@ -13,6 +13,7 @@
   width: 100%; }
 
 .card-image .image {
+  background-color: #33333322;
   background-position: 50% 50%;
   background-size: cover;
   border-radius: 25px;
@@ -20,6 +21,10 @@
   min-height: 100%;
   position: absolute;
   width: auto; }
+
+.card-image .image.contain {
+  background-size: contain;
+  background-repeat: no-repeat; }
 
 .card-text {
   margin: 15px; }

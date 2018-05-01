@@ -95,16 +95,16 @@ button:not(:disabled):not(.disabled) {
     margin-left: auto;
 }
 
-.colored-children>.section {
+.colored-children .section {
     padding: 54px 0;
 }
 
-.colored-children>.section:nth-child(even) {
+.colored-children .section:nth-child(even) {
     background: #eee;
 }
 
 @media (min-width: $breakpoint-sm) {
-    .colored-children>.section {
+    .colored-children .section {
         padding: 54px 54px;
     }
     .container {
