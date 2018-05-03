@@ -5,15 +5,15 @@ body {
   padding: 0; }
 
 a {
-  color: #000000de; }
+  color: rgba(0, 0, 0, 0.871); }
 
 a.hover,
 a:hover {
-  color: #00000080; }
+  color: rgba(0, 0, 0, 0.502); }
 
 .text-light a {
-  color: #000000de; }
+  color: rgba(0, 0, 0, 0.871); }
 
 .text-light a.hover,
 .text-light a:hover {
-  color: #00000080; }
+  color: rgba(0, 0, 0, 0.502); }

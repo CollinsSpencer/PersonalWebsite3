@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 import AboutMe from '../components/AboutMe';
 import BannerImage from '../components/BannerImage';
 import ContactMe from '../components/ContactMe';
-import MySystem from '../components/MySystem';
+// import MySystem from '../components/MySystem';
 import Pictures from '../components/Pictures';
 
 import utahSelfie from '../images/utahSelfie.JPG';

@@ -9,10 +9,10 @@ button:not(:disabled):not(.disabled) {
   cursor: pointer; }
 
 .text-light {
-  color: #ffffffde; }
+  color: rgba(255, 255, 255, 0.871); }
 
 .text-dark {
-  color: #000000de; }
+  color: rgba(0, 0, 0, 0.871); }
 
 .App {
   text-align: center;
@@ -63,11 +63,11 @@ button:not(:disabled):not(.disabled) {
 
 .text-dark .heading-bars:after,
 .text-dark .heading-bars:before {
-  background-color: #000000de; }
+  background-color: rgba(0, 0, 0, 0.871); }
 
 .text-light .heading-bars:after,
 .text-light .heading-bars:before {
-  background-color: #ffffffde; }
+  background-color: rgba(255, 255, 255, 0.871); }
 
 .container {
   width: calc(100% - 30px);
